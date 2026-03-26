@@ -176,19 +176,15 @@ p { line-height: 1.75; color: var(--parchment); }
   opacity: 0;
   animation: fadeup 1s 0.9s forwards;
 }
-s1 .scroll-hint {
+#s1 .scroll-hint {
   position: absolute;
   bottom: 88px;
   left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  text-align: center;
-
+  transform: translateX(calc(-50% + 5px));
   font-family: 'Pirata One', cursive;
   font-size: 13px;
   color: var(--gold);
   letter-spacing: 0.2em;
-
   opacity: 0;
   animation: fadeup 1s 1.4s forwards;
 }
